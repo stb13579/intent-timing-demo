@@ -1,4 +1,9 @@
 import { Quote } from "lucide-react";
+import company1 from "../assets/company1.png";
+import acme from "../assets/acme.png";
+import zenith from "../assets/zenith.png";
+import company4 from "../assets/company4.png";
+import xyz from "../assets/xyz.png";
 
 const SocialProof = () => {
   const testimonials = [
@@ -13,12 +18,12 @@ const SocialProof = () => {
   ];
 
   const logos = [
-    "Company A",
-    "Company B",
-    "Company C",
-    "Company D",
-    "Company E",
-  ];
+    <img src={company1} alt="Company 1" className="h-20 object-contain" />,
+    <img src={acme} alt="Acme Corp" className="h-20 object-contain" />,
+    <img src={zenith} alt="Zenith Systems" className="h-20 object-contain" />,
+    <img src={company4} alt="Company 4" className="h-20 object-contain" />,
+    <img src={xyz} alt="XYZ Company" className="h-20 object-contain" />,
+];
 
   return (
     <section className="py-20 md:py-32 bg-gradient-subtle">

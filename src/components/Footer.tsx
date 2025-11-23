@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-muted-foreground mb-4">
-            © 2024 Intent Signals. All rights reserved.
+            © 2025 Shaun Brown. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

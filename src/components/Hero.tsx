@@ -8,9 +8,9 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-20 md:py-32">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Outbound that finally <br />
+            Say hi when it matters most. <br />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              knows when.
+              Automatically.
             </span>
           </h1>
           
